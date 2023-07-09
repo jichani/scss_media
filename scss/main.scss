@@ -1,0 +1,18 @@
+$width-small: "all and (min-width: 300px)";
+$width-medium: "all and (min-width: 600px)";
+$width-large: "all and (min-width: 900px)";
+
+div {
+  width: 100px;
+  height: 100px;
+
+  @media #{$width-small} {
+    background: red;
+  }
+  @media #{$width-medium} {
+    background: orange;
+  }
+  @media #{$width-large} {
+    background: purple;
+  }
+}

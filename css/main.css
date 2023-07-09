@@ -1,0 +1,19 @@
+div {
+  width: 100px;
+  height: 100px;
+}
+@media all and (min-width: 300px) {
+  div {
+    background: red;
+  }
+}
+@media all and (min-width: 600px) {
+  div {
+    background: orange;
+  }
+}
+@media all and (min-width: 900px) {
+  div {
+    background: purple;
+  }
+}/*# sourceMappingURL=main.css.map */
